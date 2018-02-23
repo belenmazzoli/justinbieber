@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Justin Bieber Not Official Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+
+    <script src="main.js"></script>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body id="page__body">
+    <header>
+        <!-- here goes the logo -->
+        <h1>Justin Bieber </h1>
+    </header>
+    <nav id="main-nav">
+        <ul class="nav__container">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About JB</a></li>
+            <li><a href="shows.html">Shows</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- SLIDER -->
+        <section> 
+             <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                    <img src="imagenes/slide01.jpg" alt="On stage">
+                    </div>
+                
+                    <div class="item">
+                    <img src="imagenes/slide02.jpg" alt="Chicago">
+                    </div>
+                
+                    <div class="item">
+                    <img src="imagenes/slide03.jpg" alt="New York">
+                    </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+                      
+        </section>
+
+        <!-- Latest Releases -->
+        <section id="latest-releases">
+            <div class="container">
+                <h2>Latest Releases</h2>
+                <div class="col-lg-4">
+                    <img src="imagenes/imtheone.jpg">
+                    <h3>I'm the one - Ft. DJ Khaled</h3>
+                </div>
+                <div class="col-lg-4">
+                    <img src="imagenes/2u.jpg">
+                    <h3>2u - Ft. David Guetta</h3>
+                </div>
+                <div class="col-lg-4">
+                    <img src="imagenes/despacito.jpg">
+                    <h3>Despacito - Ft. Luis Fonsi + Daddy Yankee</h3>
+                </div>
+            </div>
+        </section>
+        <!-- shows -->
+        <section id="shows">
+            <!--img src="imagenes/onstage2.jpg"-->
+            <div class="container"> 
+                <article id="show-art">
+                    <h2>Upcoming Shows</h2>
+                    <ul id="show-list">
+                        <li>
+                            <strong>TUE | 13 | MARCH </strong>
+                            <h3>Seattle, EEUU </h3>
+                            <strong>KeyArena</strong>
+                            <a href="#"><i class="fas fa-ticket-alt"></i></a>
+                        </li>
+                        <li>
+                            <strong>WED | 14 | MARCH</strong>
+                            <h3>Vancouver, CAN </h3>
+                            <strong>Rogers Arena</strong>
+                            <a href="#"><i class="fas fa-ticket-alt"></i></a>
+                         </li>
+                         <li>
+                            <strong>THU | 15 | MARCH</strong>
+                            <h3>Portland, EEUU </h3>
+                            <strong>Moda Center</strong>
+                            <a href="#"><i class="fas fa-ticket-alt"></i></a>
+                        </li>
+                        <li>
+                            <strong>FRI | 16 | MARCH</strong>
+                            <h3>Sacramento, EEUU </h3>
+                            <strong>Sleep Train Arena</strong>
+                            <a href="#"><i class="fas fa-ticket-alt"></i></a>
+                        </li>
+                        <li>
+                            <strong>SAT | 17 | MARCH</strong>
+                            <h3>San José, EEUU </h3>
+                            <strong>SAP Center</strong>
+                            <a href="#"><i class="fas fa-ticket-alt"></i></a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <form>
+                    <div class="col-lg-12">
+                        <label>Motive</label>
+                                <select name="Motive">
+                                    <option value="manager">Contact the manager</option>
+                                    <option value="us">Work with us</option>
+                                </select>
+                    </div>
+                    <div class="col-lg-6">
+                        <label>Name</label>
+                        <input type="text" name="nombre" placeholder="Name">    
+                    </div>
+                    <div class="col-lg-6">
+                        <label>Last Name</label>
+                        <input type="text" name="apellido" placeholder="Last Name">
+                    </div>
+                    <div class="col-lg-12">
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="name@example.com"/>
+                    </div>
+                    <div class="col-lg-12">
+                        <label>Enter your coment</label>
+                        <textarea placeholder="Enter your message"></textarea>
+                    </div>
+                    <div>
+                       <label id="subscribe">Subscribe to Newsletter</label>
+                        <input type="checkbox" name="ok" value="1" / id="checkbox">
+                    </div>
+                    <div>
+                        <input type="submit" value="Send"/ class="button">
+                        <input type="reset" value="Reset" class="button">
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>© 2018 DEFJAM RECORDS. ALL RIGHTS RESERVED.</span>
+        <nav>
+            <ul>
+                <li>Privacy policy</li>
+                <li>Terms of use</li>
+                <li>Music matters</li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

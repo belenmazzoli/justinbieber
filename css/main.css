@@ -1,0 +1,187 @@
+body#page__body {
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif!important;
+}
+body h1 , body h2 , body h3 , body h4 , body h5 , body h6  , body label{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+} 
+body#page__body section .container h2 {
+    font-size:4em!important;
+    margin-bottom:1em;
+}
+body#page__body a:hover {
+    color:#a533fd;
+}
+
+header {
+    text-align: center;
+}
+header h1 {
+    font-size: 5em; 
+}
+#main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+#main-nav ul {
+    padding:1em 0;
+}
+#main-nav ul li {
+    display:inline-block;
+    list-style: none;
+    margin-right: 2em;
+    text-transform: uppercase;
+}
+#main-nav ul li a {
+    color:black;
+    font-size: 1.5em;
+}
+.carousel-inner img {
+    width:100%;
+}
+#latest-releases {
+    margin:auto;
+    padding-bottom:2em;
+}
+#shows {
+    position: relative;
+    background-image:url(../imagenes/onstage3.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#show-art {
+    color:white;
+}
+#show-art ul li {
+    list-style: none;
+}
+#show-art ul li h3 , #show-art ul li h4 {
+    display: inline-block;
+    min-width: 21%;
+    width: auto;
+}
+#show-list {
+    padding:0;
+}
+#show-list strong {
+    text-transform: uppercase;
+    min-width: 12%;
+    display: inline-block;
+}
+#show-list h3 {
+    border-right:3px solid white;
+    border-left:3px solid white;
+    padding: 0 1em;
+    margin-right: 1em;
+    width:300px
+}
+#show-list a {
+    color:white;
+}
+#latest-releases .container div img {
+    width:100%;
+}
+#latest-releases .container div {
+    text-align: center;
+}
+/*DISCOGRAPHY*/
+#discography {
+    background-color:black;
+    color:#D3D3D3;
+    padding-bottom:1em;
+}
+#discography h2 {
+    color:white;
+}
+#discography table {
+    border:2px solid #a533fd;
+    margin:auto;
+}
+#disc tr {
+    border:3px solid #a533fd;
+}
+#disc tr td {
+    padding:0.5em;
+}
+#disc tr td img {
+    width:20em;
+}
+#disc tr td ul {
+    list-style: none;
+}
+/*CONTACT*/
+#contact {
+    position: relative;
+    background-image:url(../imagenes/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 625px;
+}
+#contact form {
+    width: 50%;
+}
+#contact form div {
+    padding:0;
+    margin-bottom:1em;
+    padding-right: 1em;
+}
+#contact form label {
+    font-size: 2em;
+    display:block;
+}
+#subscribe {
+    display:inline-block!important;
+}
+#contact #checkbox {
+    width:2em;
+    float:right;
+}
+#contact input:focus {
+    border-color:#a533fd;
+    outline:0;
+}
+#contact select {
+    outline:0;
+}
+.button {
+    max-width:25%!important;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    border:3px solid #a533fd;
+    background-color:transparent;
+    color:#a533fd;
+    font-size:1.3em;
+}
+.button:hover {
+    background-color:#a533fd;
+    color:white;
+}
+#contact form input , #contact form select , #contact form textarea {
+    width:100%;
+    padding-right:1em;
+    min-height: 3em;
+}
+footer {
+    background-color:black;
+    color:white;
+    padding: 2em;
+}
+footer nav {
+    display:inline-block;
+    float: right;
+}
+footer nav ul li {
+    list-style: none;
+    display:inline-block;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-right:1px solid white;
+}
