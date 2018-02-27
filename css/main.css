@@ -46,16 +46,35 @@ header h1 {
 .carousel-inner img {
     width:100%;
 }
+/* RELEASES */
 #latest-releases {
     margin:auto;
     padding-bottom:2em;
 }
+#latest-releases .container {
+    padding:0;
+}
+#latest-releases .container article {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+
+}
+#latest-releases .container article div {
+    text-align: center;
+}
+#latest-releases .container article div h3 {
+    max-width:350px;
+    margin-top:1em;
+}
+/* SHOWS */
 #shows {
     position: relative;
     background-image:url(../imagenes/onstage3.jpg);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top:1em;
 }
 #show-art {
     color:white;
@@ -86,12 +105,6 @@ header h1 {
 #show-list a {
     color:white;
 }
-#latest-releases .container div img {
-    width:100%;
-}
-#latest-releases .container div {
-    text-align: center;
-}
 /*DISCOGRAPHY*/
 #discography {
     background-color:black;
@@ -117,10 +130,16 @@ header h1 {
 #disc tr td ul {
     list-style: none;
 }
+/* VIDEO */
+#video {
+    display: flex;
+    flex-flow: row wrap;
+}
 /*CONTACT*/
 #contact {
     position: relative;
-    background-image:url(../imagenes/contact.jpg);
+    background-image:url(../imagenes/contact2.jpg);
+    max-width:100vw;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 625px;
@@ -184,4 +203,16 @@ footer nav ul li {
     padding-right: 1em;
     padding-left: 1em;
     border-right:1px solid white;
+}
+/* ABOUT */
+#about #content h2 {
+    margin-top:1em;
+}
+#galeria ul {
+    display: flex;
+    flex-flow:row wrap;
+    align-items: stretch;
+    list-style-type:none;
+    justify-content: space-between;
+    align-content: space-between;
 }
